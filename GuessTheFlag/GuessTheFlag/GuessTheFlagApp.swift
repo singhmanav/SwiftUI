@@ -11,7 +11,11 @@ import SwiftUI
 struct GuessTheFlagApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let country: [Country] = Locale.isoRegionCodes.map({
+                let name = Locale.current.localizedString(forRegionCode: $0) ?? ""
+                return Country(name: name, iso: $0)
+            }).filter { UIImage(named: $0.iso.lowercased()) != nil }
+            ContentView(countryData: country)
         }
     }
 }
