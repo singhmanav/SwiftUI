@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:TipCalculator/TipCalculator.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Forms/Forms.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Stacks/Stacks.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Image/Image.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Text/Text.xcodeproj">
+   </FileRef>
+</Workspace>
